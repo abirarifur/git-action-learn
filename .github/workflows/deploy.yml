@@ -2,7 +2,7 @@ name: github-action-learn
 on: push
 jobs:
   test:
-    runs-on: ubuntu-leatest
+    runs-on: ubuntu-latest
     steps:
       - name: Get Code
         uses: actions/checkout@v3
